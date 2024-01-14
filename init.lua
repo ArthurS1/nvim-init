@@ -30,7 +30,6 @@ Plug('hrsh7th/cmp-nvim-lsp')
 Plug('hrsh7th/cmp-buffer')
 Plug('hrsh7th/cmp-vsnip')
 Plug('hrsh7th/vim-vsnip')
-Plug('github/copilot.vim')
 vim.call('plug#end')
 
 -- General Options
@@ -50,9 +49,9 @@ vim.api.nvim_set_option('foldenable', false)
 vim.api.nvim_set_option('ignorecase', true)
 vim.api.nvim_set_option('shiftwidth', default_tabs)
 vim.o.exrc = true
+vim.opt.clipboard = 'unnamedplus'
 
-vim.api.nvim_set_keymap('i', '²', '<esc>', {})
-vim.api.nvim_set_keymap('t', '²', '<c-\\><c-n>', {})
+vim.api.nvim_set_keymap('t', '<esc>', '<c-\\><c-n>', {})
 vim.api.nvim_set_keymap('', ';', ':GitFiles<cr>', {})
 vim.api.nvim_set_keymap('i', '(', '()<left>', {})
 vim.api.nvim_set_keymap('i', '[', '[]<left>', {})
