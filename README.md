@@ -11,4 +11,3 @@ My minimalist neovim init file
 - real-time errors (with lsp)
 - fzf for file switch
 - relative line numbers
-- remap of (esc) to (²) - it's bigger on my keyboard

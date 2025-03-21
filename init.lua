@@ -1,9 +1,9 @@
 --[[
--- Arthur Soulié 2023
+-- Arthur Soulié 2025
 -- This configuration is hosted at https://github.com/ArthurS1/nvim-init
 --]]
 local nvim_version = vim.version()
-vim.cmd('echo \"Configuration by Arthur Soulié 2023\"')
+vim.cmd('echo \"Configuration by Arthur Soulié 2025\"')
 
 -- Leader key
 -- [[
@@ -56,12 +56,6 @@ vim.api.nvim_set_keymap('', ';', ':GitFiles<cr>', {})
 vim.api.nvim_set_keymap('i', '(', '()<left>', {})
 vim.api.nvim_set_keymap('i', '[', '[]<left>', {})
 vim.api.nvim_set_keymap('i', '{', '{}<left>', {})
-
--- [[
--- Copilot remap
--- From: https://www.reddit.com/r/neovim/comments/qsfvki/how_to_remap_copilotvim_accept_method_in_lua/
--- ]]
-vim.api.nvim_set_keymap('i', '<C-J>', 'copilot#Accept("<CR>")', {expr=true, silent=true})
 
 --[[
 -- Changes the tab length depending on filetype according to the variables on
