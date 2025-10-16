@@ -43,11 +43,12 @@ local home_dir = '/home/arthur'
 vim.api.nvim_set_option('dir', home_dir .. '/.config/nvim/tmp')
 vim.api.nvim_win_set_option(0, 'number', true)
 vim.api.nvim_win_set_option(0, 'relativenumber', true)
-vim.api.nvim_set_option('foldlevel', 1)
-vim.api.nvim_set_option('foldclose', 'all')
-vim.api.nvim_set_option('foldenable', false)
-vim.api.nvim_set_option('ignorecase', true)
-vim.api.nvim_set_option('shiftwidth', default_tabs)
+vim.api.nvim_win_set_option(0, 'foldlevel', 1)
+vim.api.nvim_win_set_option(0, 'foldmethod', 'indent')
+vim.api.nvim_win_set_option(0, 'foldclose', 'all')
+vim.api.nvim_win_set_option(0, 'foldenable', false)
+vim.api.nvim_win_set_option(0, 'ignorecase', true)
+vim.api.nvim_win_set_option(0, 'shiftwidth', default_tabs)
 vim.o.exrc = true
 vim.opt.clipboard = 'unnamedplus'
 
