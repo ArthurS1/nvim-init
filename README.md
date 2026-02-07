@@ -11,3 +11,4 @@ My minimalist neovim init file
 - real-time errors (with lsp)
 - fzf for file switch
 - relative line numbers
+- git integration (with fugitive)
