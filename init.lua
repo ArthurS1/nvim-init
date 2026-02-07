@@ -3,7 +3,7 @@
 -- This configuration is hosted at https://github.com/ArthurS1/nvim-init
 --]]
 local nvim_version = vim.version()
-vim.cmd('echo \"Configuration by Arthur Soulié 2025\"')
+vim.cmd('echo \"Configuration by Arthur Soulié 2026\"')
 
 -- Leader key
 -- [[
